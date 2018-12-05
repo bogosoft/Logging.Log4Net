@@ -161,8 +161,6 @@ namespace Bogosoft.Logging.Log4Net
         {
             get
             {
-                log4net.Config.XmlConfigurator.Configure();
-
                 return new Log4NetAdapter(log4net.LogManager.GetLogger(typeof(T)));
             }
         }

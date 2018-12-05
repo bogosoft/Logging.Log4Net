@@ -1,18 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
 		<Authors>Clayton Roth</Authors>
 		<Company>Bogosoft</Company>
 		<Copyright>Copyright © 2018</Copyright>
 		<Description>A Log4Net adapter library for types in Bogosoft.Logging.</Description>
-		<FileVersion>1.0.0</FileVersion>
+		<FileVersion>1.0.1</FileVersion>
 		<PackageLicenseUrl>https://raw.githubusercontent.com/bogosoft/Logging.Log4Net/master/LICENSE</PackageLicenseUrl>
 		<PackageProjectUrl>https://github.com/bogosoft/Logging.Log4Net</PackageProjectUrl>
 		<PackageTags>logging log4net adpater</PackageTags>
 		<RepositoryUrl>https://github.com/bogosoft/Logging.Log4Net</RepositoryUrl>
 		<TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
 		<Title>Bogosoft.Logging.Log4Net</Title>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Bogosoft.Logging" Version="1.0.2.5" />
